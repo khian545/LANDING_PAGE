@@ -10,21 +10,25 @@
   overflow: hidden;
 }
 
-.app-description{
-  display: none;
-}
-
 @media screen and (max-width: 996px) {
   .heroBanner {
     padding: 2rem;
   }
-    .app-description{
-      display: none;
-    }
 }
 
 .buttons {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.appDescription{
+  font-size: 90%;
+  padding: 2rem;
+}
+
+@media screen and (max-width: 375px) {
+  .appDescription {
+      display: none;
+    }
 }

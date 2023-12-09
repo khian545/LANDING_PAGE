@@ -7,7 +7,7 @@ const BannerSvg = require('@site/static/img/paypal-monochromatic.svg').default;
 //<BannerSvg className={styles.bannerPicSvg} role="img" />
 export default function PhoneBanner(){
     return(
-        <div className='imgBanner-wrapper'>
+        <div className={styles.container}>
             <img className={styles.phoneMockup} src='./img/phone mockup.webp' />
             <img className={styles.tabletMockup} src='./img/ipad mockup.webp' />
         </div>

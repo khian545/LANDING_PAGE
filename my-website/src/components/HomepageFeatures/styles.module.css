@@ -1,12 +1,16 @@
 .features {
   display: flex;
   align-items: center;
-  padding: 2rem 0;
   width: 100%;
-  padding-top: 4rem;
+  padding: 5rem 0 5rem 0;
 }
 
 .featureSvg {
   height: 200px;
   width: 200px;
+}
+
+.container {
+  scroll-behavior: smooth;
+  overflow-y: scroll;
 }

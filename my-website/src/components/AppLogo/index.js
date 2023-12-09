@@ -4,7 +4,7 @@ import styles from './styles.module.css'
 
 export default function AppLogo(){
     return(
-        <div className='imgBanner-wrapper'>
+        <div>
             <img className={styles.profPic} src='./img/sale-report-flat.png' />
         </div>
     );        
