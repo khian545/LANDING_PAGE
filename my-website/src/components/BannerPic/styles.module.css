@@ -1,0 +1,23 @@
+.bannerPicSvg {
+  height: 500px;
+  width: 500px;
+}
+
+.phoneMockup{
+  border: 10px solid black;
+  border-radius: 25px;
+  box-shadow: 3px 3px 20px 3px black;
+  position: absolute;
+  width: inherit;
+  height: inherit;
+}
+
+.imgBanner-wrapper{
+  position: relative;
+}
+
+.tabletMockup {
+  border: 10px solid black;
+  border-radius: 25px;
+  box-shadow: 3px 3px 20px 3px black;
+}

@@ -10,7 +10,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'Maswerte App',
   tagline: 'The Ultimate Solution for Food Stall Management',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/sale-report-flat.ico',
 
   // Set the production url of your site here
   url: 'https://your-docusaurus-site.example.com',
@@ -69,21 +69,18 @@ const config = {
         title: 'Maswerte App',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/sale-report-flat.png',
         },
         items: [
-          {
+          /*{
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
-          },
-          {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
-          },
+            label: 'The App',
+          },*/
+          {to: '/#features', label: 'Features', position: 'left'},
+          {to: '/#aboutSection', label: 'About', position: 'left'},
+          {to: '/#contactSection', label: 'Contact', position: 'left'},
         ],
       },
       footer: {

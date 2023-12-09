@@ -1,0 +1,8 @@
+.aboutSection {
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+  width: 100%;
+  margin-top: 4rem;
+  
+}
